@@ -1,0 +1,18 @@
+compile:
+
+	javac -cp .;pathToJar.jar File.java
+
+run:
+
+	java -cp .;pathToJar.jar File
+
+
+compile multiple:
+
+	javac -cp .;pathToJar.jar;pathToAnotherJar.jar File.java
+	javac -cp .;folder/* File.java
+
+run multiple
+
+	java -cp .;pathToJar.jar;pathToAnotherJar.jar File
+	java -cp .;folder/* File
